@@ -4,16 +4,30 @@
     box-sizing: border-box;
 }
 
-html {
-    font: size 20px;;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-a {
-    text-decoration: none;
-}
-
-.container {
-    min-height: 100vh;
+.banner {
     width: 100%;
+    height:100vh;
+    
+
+}
+.navbar{
+    width:85%;
+    margin:auto;
+    padding:35px 0;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.logo{
+    width:120px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style:none;
+    display:inline-block;
+    margin:0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:black;
 }
